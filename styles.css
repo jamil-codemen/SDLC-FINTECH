@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Metropolis";
+        font-weight: 700;
+        src: url("./fonts/Metropolis-Bold.otf");
+        font-style: normal;
+      }
+    @font-face {
+        font-family: "Metropolis";
+        font-weight: 500;
+        src: url("./fonts/Metropolis-Medium.otf");
+        font-style: normal;
+      }
+  }
